@@ -61,8 +61,6 @@ def screen():
     cpm1 = 0
     os.system('cls')
     ctypes.windll.kernel32.SetConsoleTitleW("Valid Email Account Generator")
-    print("  Generating Email Accounts")
-    print()
     print("{}██████████████████████████████████████████████{}".format(blue, blue))
     print("{}█{}{}═════════{}{}Generating Email Accounts{}{}══════════{}{}█{}".format(blue, blue, green, green, lightblue, lightblue, green, green, blue, blue))
     print("{}██████████████████████████████████████████████{}".format(blue, blue))
